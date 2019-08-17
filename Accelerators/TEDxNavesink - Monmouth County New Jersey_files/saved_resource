@@ -1,0 +1,70 @@
+    .mc_error_msg {
+        color: red;
+        margin-bottom: 1.0em;
+    }
+    .mc_success_msg {
+        color: green;
+        margin-bottom: 1.0em;
+    }
+    .mc_merge_var{
+        padding:0;
+        margin:0;
+    }
+    #mc_signup_container {}
+    #mc_signup_form {}
+    #mc_signup_form .mc_var_label {}
+    #mc_signup_form .mc_input {}
+    #mc-indicates-required {
+        width:100%;
+    }
+    #mc_display_rewards {}
+    .mc_interests_header {
+        font-weight:bold;
+    }
+    div.mc_interest{
+        width:100%;
+    }
+    #mc_signup_form input.mc_interest {}
+    #mc_signup_form select {}
+    #mc_signup_form label.mc_interest_label {
+        display:inline;
+    }
+    .mc_signup_submit {
+        text-align:center;
+    }
+    ul.mc_list {
+        list-style-type: none;
+    }
+    ul.mc_list li {
+        font-size: 12px;
+    }
+    #ui-datepicker-div .ui-datepicker-year {
+        display: none;
+    }
+    #ui-datepicker-div.show .ui-datepicker-year {
+        display: inline;
+        padding-left: 3px
+    }
+/*
+     FILE ARCHIVED ON 21:40:06 Aug 17, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:57:17 Aug 17, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 11.724 (3)
+  LoadShardBlock: 41.414 (3)
+  exclusion.robots: 143.077
+  exclusion.robots.policy: 143.055
+  captures_list: 201.612
+  esindex: 0.008
+  RedisCDXSource: 1.996
+  PetaboxLoader3.datanode: 43.911 (4)
+  xauthn.chkprivs: 0.082
+  load_resource: 106.88
+  xauthn.identify: 142.465
+  PetaboxLoader3.resolve: 60.942
+*/
