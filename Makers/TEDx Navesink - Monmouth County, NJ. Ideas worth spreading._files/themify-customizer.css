@@ -1,0 +1,227 @@
+/* Themify Customize Styling */
+body {		font-size:16px;
+ 
+}
+.post-title, .post-title a {	
+	font-family:Arial, Helvetica, sans-serif;	font-weight:bold;
+	font-weight:bold;
+	font-size:1.2em;
+	text-align:left;
+	color: #333333;
+	color: rgba(51,51,51,1.00); 
+}
+.single-post .post-title {		font-weight:bold;
+	font-weight:bold;
+ 
+}
+.loops-wrapper.grid4 .post-title {		font-weight:bold;
+	font-weight:bold;
+	font-size:20px;
+	text-transform:uppercase;	text-align:left; 
+}
+.loops-wrapper.grid3 .post-title {		font-weight:bold;
+	font-weight:bold;
+ 
+}
+.loops-wrapper.grid2 .post-title {		font-weight:bold;
+	font-weight:bold;
+ 
+}
+.loops-wrapper.grid2-thumb .post-title {		font-weight:bold;
+	font-weight:bold;
+ 
+}
+
+/* Themify Custom CSS */
+.hide_meta .post-category, .hide_meta .post-author  {
+	  display:none;
+}
+.hide_meta .post-title {
+	  margin-bottom: 26px !important;
+}
+.hide_meta div.post-content {
+	  margin-bottom: -30px !important;line-height; 1.1em !important;
+}
+.inverse h3 {
+	  color: white;
+}
+.txtbg {
+	  background-color:white;display: inline-block;margin-bottom: 6px;border:5px solid white;
+}
+@media(max-width: 2600px) {
+	                                .makers_title {
+	  font-size: 7.5em;
+}
+
+}
+@media(max-width: 1600px) {
+	                                .makers_title {
+	  font-size: 6em;
+}
+
+}
+ @media(max-width: 1400px) {
+	                                .makers_title {
+	  font-size: 5em;
+}
+
+}
+@media(max-width: 1000px) {
+	                                .makers_title {
+	  font-size: 4.5em;
+}
+
+}
+@media(max-width: 780px) {
+	                                .makers_title {
+	  font-size: 4em;
+}
+
+}
+@media(max-width: 500px) {
+	                                .makers_title {
+	  font-size: 6em;
+}
+
+}
+@media(max-width: 600px) {
+	                                .makers_title {
+	  font-size: 4em;
+}
+
+}
+@media(max-width: 480px) {
+	                                .makers_title {
+	  font-size: 4em;
+}
+
+}
+.makers_title,text-7456-0-0-1 {
+	  margin-top: -80px;
+}
+.makers_title {
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-variant: normal;font-weight: 400;/* IE 8 */  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";  /* IE 5-7 */  filter: alpha(opacity=70);  /* Netscape */  -moz-opacity: 0.7;  /* Safari 1.x */  -khtml-opacity: 0.7;  /* Good browsers */  opacity: 0.7;
+}
+@media(max-width: 1800px) {
+	                                .makers_subtitle {
+	  font-size: 2em;Good browsers */  opacity: 0.7;  
+}
+
+}
+@media(max-width: 1200px) {
+	                                .makers_subtitle {
+	  font-size: 1.6em;  
+}
+
+}
+@media(max-width: 900px) {
+	                                .makers_subtitle {
+	  font-size: 1.5em;  
+}
+
+}
+@media(max-width: 800px) {
+	                                .makers_subtitle {
+	  font-size: 1.4em;  
+}
+
+}
+@media(max-width: 700px) {
+	                                .makers_subtitle {
+	  font-size: 1.2em;  
+}
+
+}
+@media(max-width: 600px) {
+	                                .makers_subtitle {
+	  font-size: 1em;  
+}
+ 
+}
+.makers_subtitle,text-7456-0-0-1{
+	  margin-bottom: 60px;margin-top: 90px;
+}
+.makers_subtitle {
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-variant: normal;font-weight: 400;color:red;letter-spacing: 0.075em;line-height: 1.2em;/* IE 8 */  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";  /* IE 5-7 */  filter: alpha(opacity=70);  /* Netscape */  -moz-opacity: 0.7;  /* Safari 1.x */  -khtml-opacity: 0.7;  /* Good browsers */  opacity: 0.7;
+}
+.white_module_header h3 {
+	  color:white;
+}
+.talktitle {
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: 400;color: #9a2f2f;margin-bottom: 8px;margin-top: -8px;font-size: 1.1em;font-style: italic;
+}
+.portfolio-post .post-content {
+	  font-size: .9em;line-height: 1.2em;
+}
+.makers_title_internal {
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-variant: normal;font-weight: 400;margin-top:140px;
+}
+@media(max-width: 2400px) {
+	          .makers_title_internal{
+	  font-size: 6.2em;
+}
+
+}
+@media(max-width: 1800px) {
+	          .makers_title_internal{
+	  font-size: 6em;
+}
+
+}
+@media(max-width: 1200px) {
+	            .makers_title_internal {
+	  font-size: 3.8em;
+}
+
+}
+@media(max-width: 900px) {
+	            .makers_title_internal {
+	  font-size:3.5em;
+}
+
+}
+@media(max-width: 800px) {
+	            .makers_title_internal {
+	  font-size: 3.2em;
+}
+
+}
+@media(max-width: 700px) {
+	           .makers_title_internal {
+	  font-size: 3em;
+}
+
+}
+@media(max-width: 600px) {
+	            .makers_title_internal {
+	  font-size: 2em; 
+}
+
+}
+.slide-title a {
+	  color:black;
+}
+
+/*
+     FILE ARCHIVED ON 23:49:19 Mar 11, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:15:12 Aug 17, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 93.713 (3)
+  esindex: 0.012
+  exclusion.robots: 68.457
+  load_resource: 44.293
+  LoadShardBlock: 112.211 (3)
+  PetaboxLoader3.datanode: 51.136 (4)
+  exclusion.robots.policy: 68.444
+  xauthn.chkprivs: 0.076
+  CDXLines.iter: 15.165 (3)
+  RedisCDXSource: 1.592
+  captures_list: 200.502
+  xauthn.identify: 68.007
+*/

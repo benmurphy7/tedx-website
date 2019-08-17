@@ -1,0 +1,104 @@
+;(function ( $, window, document, undefined ) {
+
+	'use strict';
+
+	var defaults = {
+			panel: '#mobile-menu',
+			close: '',
+			side: 'right'
+		};
+
+	function SideMenu ( element, options ) {
+		this.element = element;
+		this.settings = $.extend( {}, defaults, options );
+		this._defaults = defaults;
+		this.panelVisible = false;
+		this.panelCleanName = this.settings.panel.replace( /#|\.|\s/g, function(match) { 
+			var replacements = { '#':'', '\.':'', ' ':'-' };
+			return replacements[match]; } );
+		this.init();
+	}
+
+	SideMenu.prototype = {
+		init: function () {
+			var self = this;
+			$(this.element).on('click', function(e) {
+				e.preventDefault();
+				if ( self.panelVisible ) {
+					self.hidePanel();
+				} else {
+					self.showPanel();
+				}
+			});
+			if ( '' !== self.settings.close ) {
+				$(self.settings.close).on('click', function(e) {
+					e.preventDefault();
+					self.hidePanel();
+				});
+			}
+			$('body').addClass('sidemenu-active').on( 'scrollhighlightstart.themify', function() {
+				if ( self.panelVisible ) {
+					self.hidePanel();
+				}
+			}).on( 'sidemenushow.themify', function(e, emitterPanel) {
+				if ( emitterPanel !== self.settings.panel ) {
+					self.hidePanel();
+				}
+			});
+		},
+		showPanel: function () {
+			$(this.settings.panel).removeClass('sidemenu-off').addClass('sidemenu-on');
+			$('body').addClass(this.panelCleanName + '-visible sidemenu-' + this.settings.side).trigger('sidemenushow.themify', [this.settings.panel]);
+			this.panelVisible = true;
+		},
+		hidePanel: function () {
+			$(this.settings.panel).removeClass('sidemenu-on').addClass('sidemenu-off');
+			$('body').removeClass(this.panelCleanName + '-visible sidemenu-' + this.settings.side).trigger('sidemenuhide.themify');;
+			this.panelVisible = false;
+		}
+	};
+
+	$.fn.themifySideMenu = function ( options ) {
+		if ( 'string' === typeof options ) {
+			var self = $.data( this, 'SideMenu' );
+			if ( self ) {
+				if ( 'show' == options ) {
+					self.showPanel();
+				}
+				if ( 'hide' == options ) {
+					self.hidePanel();
+				}
+			}
+		} else {
+			return this.each(function() {
+				if ( !$.data( this, 'SideMenu' ) ) {
+					$.data( this, 'SideMenu', new SideMenu( this, options ) );
+				}
+			});
+		}
+	};
+
+})( jQuery, window, document );
+/*
+     FILE ARCHIVED ON 23:35:21 Mar 11, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:15:15 Aug 17, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 379.742
+  esindex: 0.011
+  exclusion.robots: 108.693
+  load_resource: 439.136
+  exclusion.robots.policy: 108.677
+  LoadShardBlock: 254.401 (3)
+  xauthn.chkprivs: 0.078
+  RedisCDXSource: 0.755
+  PetaboxLoader3.datanode: 120.041 (4)
+  PetaboxLoader3.resolve: 559.524 (2)
+  CDXLines.iter: 11.924 (3)
+  xauthn.identify: 108.186
+*/

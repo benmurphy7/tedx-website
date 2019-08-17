@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://web.archive.org/web/20160311145540im_/http://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTdqQynqKV_9Plp7mupa0S4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://web.archive.org/web/20160311145540im_/http://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://web.archive.org/web/20160311145540im_/http://fonts.gstatic.com/s/oswald/v10/AWM5wXtMJeRP-AcRTgT4qQ.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 14:55:40 Mar 11, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:15:12 Aug 17, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 187.258
+  CDXLines.iter: 18.605 (3)
+  LoadShardBlock: 74.706 (3)
+  load_resource: 456.93
+  RedisCDXSource: 6.555
+  exclusion.robots.policy: 187.24
+  esindex: 0.009
+  PetaboxLoader3.resolve: 399.076
+  PetaboxLoader3.datanode: 112.17 (4)
+  xauthn.identify: 186.844
+  xauthn.chkprivs: 0.06
+  captures_list: 302.693
+*/
