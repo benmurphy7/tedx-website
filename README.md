@@ -1,4 +1,4 @@
 # tedx-website
-Sample snapshots of www.tedxnavesink.com
+Sample snapshots from www.tedxnavesink.com (while it was live)
 
-These are snapshots taken from archive.org which may be missing elements. For a more complete view of the site's development history visit: https://web.archive.org/web/*/tedxnavesink.com
+These snapshots were taken from archive.org and elements may be missing. For a more complete view of the site's development history visit: https://web.archive.org/web/*/tedxnavesink.com
